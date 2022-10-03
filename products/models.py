@@ -7,6 +7,7 @@ class ProductModel(models.Model):
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)
+    image = models.ImageField(upload_to='images/products/%Y/%m', blank=True, null=True)
     
     class Meta:
         db_table = 'tbl_products'
