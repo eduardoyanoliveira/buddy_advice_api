@@ -46,7 +46,9 @@ This project is a simple Django API of a project where the user can create produ
   py manage.py runserver
 ```
 
-7º In order to run the web application keep following the tutorial on the nebula-web-application repository
+7º In order to run the web application keep following the tutorial on this repository
+
+[frontend](https://github.com/eduardoyanoliveira/buddy_advice_web)
 
 ## Main Technologies
 
